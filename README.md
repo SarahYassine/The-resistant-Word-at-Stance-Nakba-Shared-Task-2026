@@ -51,13 +51,6 @@ Update file paths in the second cell of the notebook to point to your local copi
 Run the notebook – training and evaluation will be performed automatically.
 
 Output – predictions on the test set are saved to results/predictions.csv and also zipped as predictions.zip.
-
-📁 Repository Structure
-text
-├── StanceNakbaNoteBook.ipynb    # Main notebook with full pipeline
-├── results/                     # Created during run (contains predictions.csv)
-├── predictions.zip              # Final zipped predictions
-└── README.md                    # This file
 📌 Notes
 Training uses bfloat16 (bf16) to speed up training on compatible GPUs.
 
